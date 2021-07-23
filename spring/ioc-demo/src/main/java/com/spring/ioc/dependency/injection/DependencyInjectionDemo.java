@@ -24,7 +24,7 @@ public class DependencyInjectionDemo {
 
     public static void main(String[] args) {
 
-        BeanFactory beanFactory = new ClassPathXmlApplicationContext("classpath:META-INFO/dependency-injection-context.xml");
+        BeanFactory beanFactory = new ClassPathXmlApplicationContext("classpath:META-INF/dependency-injection-context.xml");
 
 
         autoInjection(beanFactory);

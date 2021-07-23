@@ -18,7 +18,7 @@ public class DependencyLookupDemo {
 
     public static void main(String[] args) {
 
-        BeanFactory beanFactory = new ClassPathXmlApplicationContext("classpath:META-INFO/dependency-lookup-context.xml");
+        BeanFactory beanFactory = new ClassPathXmlApplicationContext("classpath:META-INF/dependency-lookup-context.xml");
 
 
         // 依赖查找：根据name实时查找

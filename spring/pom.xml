@@ -10,6 +10,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>ioc-demo</module>
+        <module>beans</module>
     </modules>
 
     <properties>

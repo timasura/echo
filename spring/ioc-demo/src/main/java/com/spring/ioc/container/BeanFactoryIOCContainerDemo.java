@@ -22,7 +22,7 @@ public class BeanFactoryIOCContainerDemo {
 
         // 加载配置
         XmlBeanDefinitionReader reader = new XmlBeanDefinitionReader(beanFactory);
-        String location = "classpath:META-INFO/dependency-lookup-context.xml";
+        String location = "classpath:META-INF/dependency-lookup-context.xml";
         int beanDefinitionsCount = reader.loadBeanDefinitions(location);
 
         System.out.println( " 加载配置总数: "  + beanDefinitionsCount);

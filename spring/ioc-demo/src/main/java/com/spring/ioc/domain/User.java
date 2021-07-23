@@ -11,6 +11,13 @@ public class User {
 
     private String name;
 
+    public static User createUser() {
+        User user = new User();
+        user.setId(1000);
+        user.setName("Laila");
+        return user;
+    }
+
     public Integer getId() {
         return id;
     }
@@ -26,6 +33,8 @@ public class User {
     public void setName(String name) {
         this.name = name;
     }
+
+
 
     @Override
     public String toString() {
